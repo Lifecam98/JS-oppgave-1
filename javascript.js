@@ -106,11 +106,11 @@ console.log(num2); // Output: 9
 
 // Shorthand Addition
 num1 += 5;
-console.log(num1); // Output: 10
+console.log(num1); // Output: 11
 
 // Shorthand Subtraction
 num2 -= 5;
-console.log(num2); // Output: 5
+console.log(num2); // Output: 4
 
 /****************************************************************************** 
 
