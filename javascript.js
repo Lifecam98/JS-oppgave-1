@@ -33,7 +33,7 @@ using one of the methods I showed in the first lecture.
 javascript.js
 
 ******************************************************************************/
-/* Script tag lagt til i index.html */
+/* Script tag added in index.html */
 /****************************************************************************** 
 
 ASSIGNMENT 2
