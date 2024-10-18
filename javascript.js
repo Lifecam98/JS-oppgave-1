@@ -93,7 +93,7 @@ console.log(num2 - num1); // Output: 5
 console.log(num1 * num2); // Output: 50
 
 // Division
-console.log(num2 / num1); // Output: 2.5
+console.log(num2 / num1); // Output: 2
 
 // Shorthand increment
 num1++;
