@@ -39,7 +39,6 @@ javascript.js
 ASSIGNMENT 2
 
 
-
 Last lecture I showed you how to make variables that can hold values of the 
 
 various data types. Make some variables of the following datatypes: 
@@ -162,10 +161,9 @@ if (userName !== "" && userAge >= 18 && userIsBlocked === false) {
   console.log("Welcome online ", userName, "!");
 } else {
   console.log(
-    "You were not let into the page, ",
-    "because you are not old enough, blocked, or your name is invalid ",
     userName,
-    "."
+    ", you were not let into the page, ",
+    "because you are not old enough, blocked, or your name is invalid."
   );
 }
 
