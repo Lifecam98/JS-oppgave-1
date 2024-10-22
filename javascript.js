@@ -199,4 +199,4 @@ const userTitle = userMale ? "Mr." : "Mrs.";
 console.log("Hello ", userTitle); // Output: "Hello Mr."
 
 // if false
-console.log("Hello ", userTitle); // Output: "Hello Mrs."
+console.log(`Hello ${userTitle}`); // Output: "Hello Mrs."
