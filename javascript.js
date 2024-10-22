@@ -156,15 +156,16 @@ let userIsBlocked = false;
 let goToPage = "";
 
 if (userName !== "" && userAge >= 18 && userIsBlocked === false) {
-  userIsLoggedIn = true;
-  goToPage = "/home";
-  console.log("Welcome online ", userName, "!");
+	userIsLoggedIn = true;
+	goToPage = "/home";
+	console.log("Welcome online ", userName, "!");
+	console.log(`Welcome online ${userName}!`); //Det samme som linjen over men med template literals
 } else {
-  console.log(
-    userName,
-    ", you were not let into the page, ",
-    "because you are not old enough, blocked, or your name is invalid."
-  );
+	console.log(
+		userName,
+		", you were not let into the page, ",
+		"because you are not old enough, blocked, or your name is invalid."
+	);
 }
 
 /******************************************************************************
